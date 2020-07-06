@@ -1,1 +1,1 @@
-# Hot Gadgets Simple eCommerce
+# Hot Gadgets Simple eCommerce.
