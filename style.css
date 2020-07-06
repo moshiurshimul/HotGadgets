@@ -25,8 +25,9 @@ body {
 }
 
 .carousel-indicators .active {
-    background-color: #FF9C35;
-    width: 30px;
+    background-image: linear-gradient(to left, #ffc31f,#ff9c35);
+    width: 35px;
+    height: 8px;
 }
 
 .buy-now-button {
@@ -62,11 +63,47 @@ body {
 .card {
     text-align: center;
     border: none;
-    box-shadow: 5px 5px 20px #f2f2f2;
+    box-shadow: 5px 5px 20px #8080803d;
     border-radius: 10px;
     padding: 30px 20px;
 }
 
 .category-section img {
     width: 100%;
+}
+
+.category-section h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.category-section h2::after {
+    content: '';
+    background-image: linear-gradient(to right, #ffc31f,#ff9c35);
+    width: 100px;
+    height: 8px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.category-box {
+    width: 200px;
+    padding: 60px 20px 50px 20px;
+    text-align: center;
+    background: white;
+    box-shadow: 5px 5px 20px #8080803d;
+    margin-bottom: 30px;
+}
+
+.category-box.first-box {
+    border-radius: 0px 20px 0px 40px;
+}
+
+.category-box.secound-box {
+    border-radius: 20px 0px 40px 0px;
+}
+
+.category-box img {
+    width: 90px;
+    margin-bottom: 20px;
 }
